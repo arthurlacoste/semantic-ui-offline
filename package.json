@@ -1,0 +1,20 @@
+{
+  "name": "semantic-ui-offline",
+  "version": "2.2.12",
+  "title": "Semantic UI",
+  "description": "CSS Only distribution of Semantic UI, with fonts.",
+  "homepage": "http://www.semantic-ui.com",
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "license": "MIT",
+  "main": "semantic.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arthurlacoste/semantic-ui-offline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arthurlacoste/semantic-ui-offline/issues"
+  },
+  "dependencies": {
+    "jquery": "x.*"
+  }
+}

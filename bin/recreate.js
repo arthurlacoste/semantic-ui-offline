@@ -1,7 +1,7 @@
 /*
- This script recreate a new version of the package without semantic-ui-css
- including the fonts.
-*/
+ * This script recreate a new version of the package without semantic-ui-css
+ * including the fonts.
+ */
 const fs = require('fs');
 const fse = require('fs-extra');
 const path = require('path');
@@ -58,13 +58,8 @@ filesTochange.forEach(f => {
 // Copy module inside of this one
 fse.copy('node_modules/semantic-ui-css/', '.', (err,data) =>{
   if(err) return console.log(err);
-
   fse.copy('src/', '.', (err,data) =>{
     if(err) return console.log(err);
       console.log('Everything is updated!')
   });
 })
-
-// Copy & replace all except: package.json & readme.md
-
-// @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);/*!

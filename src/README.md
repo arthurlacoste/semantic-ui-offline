@@ -2,7 +2,7 @@
 
 This repository is a fork of semantic-ui-css, with offline fonts.
 
-## install
+## Install
 
 ```
 npm i semantic-ui-offline -S

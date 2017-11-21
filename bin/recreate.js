@@ -12,7 +12,7 @@ const fontMax = `
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/lato-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('font/lato-v14-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Lato Regular'), local('Lato-Regular'),
        url('font/lato-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('font/lato-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
@@ -21,7 +21,7 @@ const fontMax = `
        url('font/lato-v14-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
 }
 `;
-const fontMin = `@font-face{font-family:Lato;font-style:normal;font-weight:400;src:url(fonts/lato-v14-latin-regular.eot);src:local('Lato Regular'),local('Lato-Regular'),url(font/lato-v14-latin-regular.eot?#iefix) format('embedded-opentype'),url(font/lato-v14-latin-regular.woff2) format('woff2'),url(font/lato-v14-latin-regular.woff) format('woff'),url(font/lato-v14-latin-regular.ttf) format('truetype'),url(font/lato-v14-latin-regular.svg#Lato) format('svg')}`;
+const fontMin = `@font-face{font-family:Lato;font-style:normal;font-weight:400;src:url(font/lato-v14-latin-regular.eot);src:local('Lato Regular'),local('Lato-Regular'),url(font/lato-v14-latin-regular.eot?#iefix) format('embedded-opentype'),url(font/lato-v14-latin-regular.woff2) format('woff2'),url(font/lato-v14-latin-regular.woff) format('woff'),url(font/lato-v14-latin-regular.ttf) format('truetype'),url(font/lato-v14-latin-regular.svg#Lato) format('svg')}`;
 
 filesTochange = [
 	'node_modules/semantic-ui-css/semantic.min.css',

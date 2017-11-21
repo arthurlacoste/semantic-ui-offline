@@ -22,7 +22,7 @@
     "jquery": "x.*"
   },
   "devDependencies": {
-    "semantic-ui-css": "*"
+    "semantic-ui-css": "^2.2.12"
   },
   "keywords": [
     "static",

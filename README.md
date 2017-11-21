@@ -1,4 +1,4 @@
-# Semantic UI Offline
+# CSS Distribution
 
 This repository is a fork of semantic-ui-css, with offline fonts.
 
@@ -10,10 +10,8 @@ npm i semantic-ui-offline -S
 
 ## Update
 
-In dev, you can rebuild all the things with theses lines:
+In dev, you can restart the script with:
 
 ```
-cd folder/to/semantic-ui-offline/
-npm install
 npm start
 ```

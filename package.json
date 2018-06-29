@@ -1,6 +1,6 @@
 {
   "name": "semantic-ui-offline",
-  "version": "2.2.13.2",
+  "version": "2.3.2",
   "title": "Semantic UI",
   "description": "CSS Only distribution of Semantic UI, with fonts.",
   "homepage": "https://arthurlacoste.com",
@@ -22,7 +22,7 @@
     "jquery": "x.*"
   },
   "devDependencies": {
-    "semantic-ui-css": "^2.2.12"
+    "semantic-ui-css": "*"
   },
   "keywords": [
     "static",

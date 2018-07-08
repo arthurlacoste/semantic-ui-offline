@@ -34,12 +34,6 @@ const minFileSrc = '../src/semantic.min.css';
 const maxFileSrc = '../src/semantic.css';
 const reg = /(@import url\(([^)]+)\);)/;
 
-function replace(token){
-  replaced = true;
-  console.log(Found )
-  return fontMin;
-}
-
 // change files
 filesTochange.forEach(f => {
 	console.log('Replace ' + path.resolve(f));

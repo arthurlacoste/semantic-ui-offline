@@ -12,17 +12,21 @@
     "url": "git://github.com/arthurlacoste/semantic-ui-offline.git"
   },
   "scripts": {
-    "start": "rm -rf node_modules/semantic-ui-css && npm install semantic-ui-css && node bin/recreate.js"
+    "build": "node bin/recreate.js",
+    "start": "npm run build",
+    "test": "npm run test:unit && npm run test:browser",
+    "test:unit": "node --test test/unit/*.test.js",
+    "test:browser": "playwright test"
   },
   "bugs": {
     "url": "https://github.com/arthurlacoste/semantic-ui-offline/issues"
   },
   "dependencies": {
-    "fs-extra": "^4.0.2",
-    "jquery": "x.*"
+    "jquery": "^3.7.1"
   },
   "devDependencies": {
-    "semantic-ui-css": "^2.5.0"
+    "@playwright/test": "1.61.1",
+    "semantic-ui-css": "2.5.0"
   },
   "keywords": [
     "static",
